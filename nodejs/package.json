@@ -1,0 +1,15 @@
+{
+  "name": "fernetapi_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outfile ./dist/bundle.js --moduleResolution node --module system ./src/index.ts"
+  },
+  "author": "Graham Abbott",
+  "license": "ISC",
+  "dependencies": {
+    "fernet": "^0.4.0"
+  }
+}
